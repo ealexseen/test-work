@@ -1,0 +1,38 @@
+{
+  "globalServer": "http://dev.carbon38.com",
+  "localServer": "test-work.loc",
+  "sass": {
+    "watch": "./sass/**/*.scss",
+    "src": "./sass/**/*.scss",
+    "dest": "./css",
+    "map": "./"
+  },
+  "less": {
+    "watch": "./site/styles/*.less",
+    "src": "./site/styles/main.less",
+    "dest": "./site/styles",
+    "map": "./"
+  },
+  "fonts": {
+    "watch": "./*.list",
+    "src": "./*.list",
+    "dest": "./fontsGenerator"
+  },
+  "sprite": {
+    "rootSprite": "images/sprite/*.png",
+    "imagesSprite": "./images",
+    "cssSprite": "./sass/sprite"
+  },
+  "svg": {
+    "src": "./images/**/*.svg",
+    "dest": "./images"
+  },
+  "imagesMin": {
+    "src": "./images/**/*.{jpg,gif,png,jpeg}",
+    "dest": "./images",
+    "srcTest": "./imagesTest/**/*.{jpg,gif,png,jpeg}",
+    "destTest": "./imagesTest"
+  },
+  "templatesPath": "./../../../../app/design/frontend/default/c38/template/**/*.phtml",
+  "templatesEmail": "./../../../../testEmailTemplates.html"
+}

@@ -1,0 +1,42 @@
+/* -----------------------------------------------------------------------------
+  COMPENENTS - RATING
+
+----------------------------------------------------------------------------- */
+.c-rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c-rating__item {
+  height: 19px;
+  background: url("../images/stars.svg");
+  background-position: 0 0;
+  background-size: cover;
+  cursor: pointer;
+  width: 20px;
+  display:block;
+  float: left;
+}
+
+.c-rating__item:hover,
+.c-rating__item.is-active {
+  background-position: -24px 0;
+}
+.c-rating__item {
+  position: relative;
+  span {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/stars.svg");
+    background-position: -26px 0;
+    width: 0;
+  }
+}

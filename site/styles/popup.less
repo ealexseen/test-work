@@ -1,0 +1,150 @@
+.popup_over {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.77);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+    transition: all 0.2s ease;
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    max-width: 350px;
+    margin: 0 auto;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 110;
+    transition: all 0.2s ease;
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.popup__close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 14px;
+    height: 14px;
+    opacity: .5;
+    background: url("../images/popup-close.png") no-repeat;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.popup__subscribe {
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 33px 29px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.popup__images {
+    text-align: center;
+    font-size: 0;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+// popupDescription
+.popupDescription {
+    text-align: center;
+    padding-top: 9px;
+    margin-bottom: 21px;
+}
+
+.popupDescription__big {
+    display: block;
+    font-size: 24px;
+    line-height: 38px;
+    color: #515151;
+    padding-bottom: 17px;
+}
+
+.popupDescription__small {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515151;
+}
+
+// popupForm
+.popupForm {
+    text-align: center;
+}
+
+.popupForm__item {
+    margin-bottom: 14px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.popupForm__input {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    border: 1px solid #bbbbbb;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #a9a9a9;
+    height: 41px;
+    border-radius: 3px;
+    text-align: center;
+    transition: all 0.2s ease;
+  outline: none;
+
+    &:focus {
+        border-color: #7d7d7d;
+        color: #7d7d7d;
+    }
+}
+
+.popupForm__button {
+    font-family: Arial, sans-serif;
+    background: #fe0000;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: #ffffff;
+    height: 41px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    transition: all 0.2s ease;
+  cursor: pointer;
+
+    &:hover {
+        background: #e40000;
+    }
+}
+
+.popup__textBottom {
+    text-align: center;
+    font-size: 13px;
+    color: #a9a9a9;
+    padding: 17px 0;
+}

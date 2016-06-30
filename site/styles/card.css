@@ -1,0 +1,92 @@
+.bonus-card {
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+.bonus-card .text {
+  display: block;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.bonus-card .text span {
+  display: block;
+}
+.bonus-card .btn {
+  background: #fff;
+  display: block;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 33px;
+  height: 31px;
+}
+.bonus-card .large-text {
+  font-size: 46px;
+  line-height: 46px;
+  font-weight: bold;
+}
+.bonus-card .medium-text {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.bonus-card .bold-text {
+  font-weight: bold;
+}
+.bonus-card .code-text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+}
+.bonus-card .normal-text {
+  text-transform: none;
+}
+.bonus-card:hover {
+  text-decoration: none;
+}
+.bonus-card:hover span.btn {
+  color: #000;
+}
+.bonus-card.red {
+  background: #9a2e3e;
+}
+.bonus-card.red .text {
+  background: #b43b4e;
+}
+.bonus-card.red .btn {
+  color: #9a2e3e;
+}
+.bonus-card.light-green {
+  background: #72b237;
+}
+.bonus-card.light-green .text {
+  background: #88d048;
+}
+.bonus-card.light-green .btn {
+  color: #72b237;
+}
+.bonus-card.blue {
+  background: #118c9c;
+}
+.bonus-card.blue .text {
+  background: #1ba8ba;
+}
+.bonus-card.blue .btn {
+  color: #118c9c;
+}
+.bonus-card.green {
+  background: #34842d;
+}
+.bonus-card.green .text {
+  background: #46993f;
+}
+.bonus-card.green .btn {
+  color: #34842d;
+}

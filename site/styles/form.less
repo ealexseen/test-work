@@ -1,0 +1,271 @@
+input, textarea {
+  font-family: @font-basic;
+}
+
+.form-input {
+  height: 44px;
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 2px;
+  border: 1px solid #a9a9a9;
+  color: #a9a9a9;
+  margin-bottom: 20px;
+  font-size: 14px;
+
+  &:focus {
+    border-color: #7d7d7d;
+  }
+}
+
+.btn-yellow {
+  height: 50px;
+  line-height: 52px;
+  padding: 0 45px;
+  text-transform: uppercase;
+  color: #000;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  border: 0;
+  background: #fff01b;
+  background-image: linear-gradient(#fff01b, #ebc718);
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    background: #f2e41c;
+    background-image: linear-gradient(#f2e41c, #e0be17);
+  }
+}
+
+.btn-green {
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  padding: 0 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  border: 0;
+  background: #a4d53f;
+  background-image: linear-gradient(#a4d53f, #497c02);
+  cursor: pointer;
+
+  &.small-btn {
+    height: 22px;
+    line-height: 22px;
+    font-size: 10px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background: #92be38;
+    background-image: linear-gradient(#92be38, #447205);
+  }
+}
+
+.testimonial-form {
+  label.error {
+    width: 100%;
+    font-size: 14px;
+    color: #ff3333;
+    text-transform: none;
+    font-weight: normal;
+    padding-top: 8px;
+  }
+
+  .form-line {
+    .clearfix();
+
+    margin-bottom: 25px;
+  }
+
+  textarea.inner-input {
+    padding: 8px 15px;
+  }
+
+      .c-rating__item {
+        width: 30px;
+        height: 30px;
+        margin: 0 2px;
+        background-position: -1px 0;
+
+        span {
+          background-position: -39px 0;
+          background-size: cover;
+        }
+      }
+      .c-rating__item:hover,
+      .c-rating__item.is-active {
+        background-position: -39px 0;
+      }
+
+  label {
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    color: #262626;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    width: 205px;
+
+    span {
+      text-transform: none;
+      color: #7f8c9c;
+      font-size: 14px;
+      display: block;
+      font-weight: normal;
+      padding-top: 5px;
+    }
+  }
+
+  .form-block {
+    margin-left: 225px;
+  }
+
+  @media (max-width: 999px) {
+    label {
+      width: 100%;
+      float: none;
+    }
+
+    .form-block {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .form-summary {
+      padding-left: 0;
+    }
+  }
+}
+
+.inner-input {
+  height: 38px;
+  border: 1px solid #c3d4e6;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #000;
+  padding-left: 15px;
+  display: block;
+  width: 100%;
+}
+
+textarea.inner-input {
+  resize: none;
+  height: 363px;
+  overflow: auto;
+
+  &.small-size {
+    height: 70px;
+  }
+}
+
+.form-summary {
+  padding-left: 225px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+
+  p {
+    margin-bottom: 15px;
+  }
+  .btn-yellow {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.private-form {
+  .clearfix();
+
+
+  .photo-block {
+    float: left;
+    img {
+      display: block;
+      width: 80px;
+    }
+  }
+
+  .form-block {
+    margin-left: 100px;
+
+    fieldset {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+
+    a {
+      color: #004d99;
+    }
+
+    .note {
+      color: #7f8c9c;
+      display: block;
+    }
+
+
+    .inner-input, .value-block {
+      width: 220px;
+      margin-left: 130px;
+      margin-bottom: 10px;
+      display: block;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    label {
+      float: left;
+      width: 110px;
+      text-align: right;
+      font-size: 14px;
+      color: #7f8c9c;
+      line-height: 30px;
+      white-space: nowrap;
+    }
+
+    .btn-yellow {
+      margin-left: 130px;
+      height: 34px;
+      line-height: 34px;
+      font-size: 13px;
+      padding: 0 34px;
+    }
+  }
+
+  @media (max-width: 530px) {
+    .photo-block {
+      float: none;
+      padding-bottom: 30px;
+    }
+
+    .form-block {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 430px) {
+
+    .form-block {
+      label {
+        float: none;
+        width: 100%;
+      }
+
+      .inner-input,
+      .value-block {
+        margin-left: 0;
+      }
+    }
+  }
+}
