@@ -4,6 +4,7 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/test-work/',
                 '/test-work/index.html',
+                '/test-work/manifest.json',
                 '/test-work/app.js',
                 '/test-work/video/SampleVideo_720x480_30mb.mp4',
                 '/test-work/sw.js'
