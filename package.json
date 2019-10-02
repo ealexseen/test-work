@@ -2,7 +2,7 @@
   "name": "test-work",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://ealexseen:hdt5ymJ0krA9@github.com/ealexseen/test-work.git",
+  "repository": "https://github.com/ealexseen/test-work.git",
   "author": "ealexseen <yauheni.aliakseyenko@neklo.com>",
   "license": "MIT",
   "dependencies": {
